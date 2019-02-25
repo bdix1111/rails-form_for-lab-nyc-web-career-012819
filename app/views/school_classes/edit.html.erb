@@ -1,0 +1,7 @@
+<h1>Edit Class Form</h1>
+
+<%= form_for(@subject) do |f| %>
+  Proposed Subject: <%= f.text_field :title %><br>
+  Proposed Classroom: <%= f.text_field :room_number %><br>
+  <%= f.submit %>
+<% end %>
